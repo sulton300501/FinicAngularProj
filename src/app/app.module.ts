@@ -32,14 +32,19 @@ import { NovostiMainInPageComponent } from './Pages/novosti/novosti-components/n
 import { KontaktComponent } from './Pages/kontakt/kontakt.component';
 import { KontaktMainPageComponent } from './Pages/kontakt/kontakt-components/kontakt-main-page/kontakt-main-page.component';
 import { KontaktKontaktPageComponent } from './Pages/kontakt/kontakt-components/kontakt-kontakt-page/kontakt-kontakt-page.component';
-import { AccordionComponent } from './pages/home/home-components/accordion/accordion.component';
-import { DostavkaComponent } from './pages/dostavka/dostavka.component';
-import { GarantiyaComponent } from './pages/garantiya/garantiya.component';
-import { CompanyComponent } from './pages/company/company.component';
-import { ProyektComponent } from './pages/proyekt/proyekt.component';
-import { ProyektDetailComponent } from './pages/proyekt-detail/proyekt-detail.component';
-import { DetailCarauselComponent } from './pages/proyekt-detail/detail-carausel/detail-carausel.component';
-import { KartochkaComponent } from './pages/kartochka/kartochka.component';
+import { AccordionComponent } from './Pages/home/home-components/accordion/accordion.component';
+import { DostavkaComponent } from './Pages/dostavka/dostavka.component';
+import { GarantiyaComponent } from './Pages/garantiya/garantiya.component';
+import { CompanyComponent } from './Pages/company/company.component';
+import { ProyektComponent } from './Pages/proyekt/proyekt.component';
+import { ProyektDetailComponent } from './Pages/proyekt-detail/proyekt-detail.component';
+import { DetailCarauselComponent } from './Pages/proyekt-detail/detail-carausel/detail-carausel.component';
+
+import { KartochkaComponent } from './Pages/kartochka/kartochka.component';
+
+import { UslugiComponent } from './Pages/uslugi/uslugi.component';
+import { UslugiMainPageComponent } from './Pages/uslugi/uslugi-components/uslugi-main-page/uslugi-main-page.component';
+
 
 
 @NgModule({
@@ -69,8 +74,14 @@ import { KartochkaComponent } from './pages/kartochka/kartochka.component';
     CompanyComponent,
     ProyektComponent,
     ProyektDetailComponent,
+
     DetailCarauselComponent,
-    KartochkaComponent
+    KartochkaComponent,
+
+    DetailCarauselComponent,
+    UslugiComponent,
+    UslugiMainPageComponent
+
   ],
   imports: [
     BrowserModule,
