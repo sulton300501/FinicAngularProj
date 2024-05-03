@@ -39,6 +39,7 @@ import { CompanyComponent } from './pages/company/company.component';
 import { ProyektComponent } from './pages/proyekt/proyekt.component';
 import { ProyektDetailComponent } from './pages/proyekt-detail/proyekt-detail.component';
 import { DetailCarauselComponent } from './pages/proyekt-detail/detail-carausel/detail-carausel.component';
+import { KartochkaComponent } from './pages/kartochka/kartochka.component';
 
 
 @NgModule({
@@ -68,7 +69,8 @@ import { DetailCarauselComponent } from './pages/proyekt-detail/detail-carausel/
     CompanyComponent,
     ProyektComponent,
     ProyektDetailComponent,
-    DetailCarauselComponent
+    DetailCarauselComponent,
+    KartochkaComponent
   ],
   imports: [
     BrowserModule,
