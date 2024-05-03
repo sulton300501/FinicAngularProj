@@ -8,6 +8,8 @@ import { LoginResponse } from '../Interfaces/login-response';
 import { Router } from '@angular/router';
 import { RegisterRequest } from '../Interfaces/register-request';
 import { RegisterResponse } from '../Interfaces/register-response'; 
+import { UpdateUser } from '../Interfaces/update-request';
+import { Email } from '../Interfaces/email';
 
 @Injectable({
   providedIn: 'root'
@@ -35,6 +37,24 @@ export class AuthService {
   register(data1:RegisterRequest): Observable<RegisterResponse>{
     return this.http.post<RegisterResponse>(this.apiUrl+'User/Register', data1);
   }
+
+
+  update(id: number, data: UpdateUser): Observable<UpdateUser> {
+    return this.http.put<UpdateUser>(this.apiUrl + `UpdateUser?id=${id}`, data)
+  }
+
+
+  getById(id: number): Observable<UpdateUser> {
+    return this.http.get<UpdateUser>(this.apiUrl + `UserGetById?id=${id}`)
+  }
+
+  sendEmail(email: string): Observable<any> {
+    const apiUrl = 'https://localhost:7162/api'; 
+    const emailParam = encodeURIComponent(email); 
+    const url = `${apiUrl}/User/Email?email=${emailParam}`; 
+    return this.http.post<any>(url, null); 
+  }
+  
 
 
   logout(){
