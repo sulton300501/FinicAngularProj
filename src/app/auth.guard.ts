@@ -30,18 +30,51 @@ export const studentGuard: CanActivateFn = (route, state) => {
   return false;
 };
 
+export const shoppingGuard: CanActivateFn = (route, state) => {
+  return true;
+};
+
+export const novostiGuard: CanActivateFn = (route, state) => {
+  return true;
+};
+
+export const contactGuard: CanActivateFn = (route, state) => {
+  return true;
+};
+
+export const uslogiGuard: CanActivateFn = (route, state) => {
+  return true;
+};
+
+export const zashitaproektiGuard: CanActivateFn = (route, state) => {
+  return true;
+};
+
+export const companyGuard: CanActivateFn = (route, state) => {
+  return true;
+};
+
+export const catalogGuard: CanActivateFn = (route, state) => {
+  return true;
+};
+
+export const proyektGuard: CanActivateFn = (route, state) => {
+  return true;
+};
+
+
+export const proyektdetailsGuard: CanActivateFn = (route, state) => {
+  return true;
+};
+
 export const userGuard: CanActivateFn = (route, state) => {
   const router = inject(Router)
-
   
 
  if(localStorage.getItem(tokenKey) != null) {
   const tokenDecoded: any = jwtDecode(localStorage.getItem(tokenKey)!)
 
-  // console.log('users dan kelyabdi');
-  // console.log(tokenDecoded.role);
   const data = tokenDecoded.role;
-  // console.log(tokenDecoded);
 
   for (let index = 0; index < data.length; index++) {
     const element = data[index];
