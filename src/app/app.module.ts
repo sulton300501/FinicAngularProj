@@ -29,6 +29,9 @@ import { HomeCrouselCardsPageComponent } from './Pages/home/home-components/home
 import { NovostiComponent } from './Pages/novosti/novosti.component';
 import { NovostiMainPageComponent } from './Pages/novosti/novosti-components/novosti-main-page/novosti-main-page.component';
 import { NovostiMainInPageComponent } from './Pages/novosti/novosti-components/novosti-main-in-page/novosti-main-in-page.component';
+import { KontaktComponent } from './Pages/kontakt/kontakt.component';
+import { KontaktMainPageComponent } from './Pages/kontakt/kontakt-components/kontakt-main-page/kontakt-main-page.component';
+import { KontaktKontaktPageComponent } from './Pages/kontakt/kontakt-components/kontakt-kontakt-page/kontakt-kontakt-page.component';
 
 
 @NgModule({
@@ -48,7 +51,10 @@ import { NovostiMainInPageComponent } from './Pages/novosti/novosti-components/n
     HomeCrouselCardsPageComponent,
     NovostiComponent,
     NovostiMainPageComponent,
-    NovostiMainInPageComponent
+    NovostiMainInPageComponent,
+    KontaktComponent,
+    KontaktMainPageComponent,
+    KontaktKontaktPageComponent
   ],
   imports: [
     BrowserModule,
