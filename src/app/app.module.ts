@@ -39,6 +39,8 @@ import { CompanyComponent } from './pages/company/company.component';
 import { ProyektComponent } from './pages/proyekt/proyekt.component';
 import { ProyektDetailComponent } from './pages/proyekt-detail/proyekt-detail.component';
 import { DetailCarauselComponent } from './pages/proyekt-detail/detail-carausel/detail-carausel.component';
+import { UslugiComponent } from './Pages/uslugi/uslugi.component';
+import { UslugiMainPageComponent } from './Pages/uslugi/uslugi-components/uslugi-main-page/uslugi-main-page.component';
 
 
 @NgModule({
@@ -69,6 +71,8 @@ import { DetailCarauselComponent } from './pages/proyekt-detail/detail-carausel/
     ProyektComponent,
     ProyektDetailComponent,
     DetailCarauselComponent
+    UslugiComponent,
+    UslugiMainPageComponent
   ],
   imports: [
     BrowserModule,
