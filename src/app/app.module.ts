@@ -81,8 +81,7 @@ import { GdeKupitMainPageComponent } from './Pages/gde-kupit/gde-kupit-component
     UslugiMainPageComponent,
     ZashitaProektiComponent,
     ZashitaProektiMainPageComponent,
-    RouterLinks,
-    AdminProfileComponent
+    AdminProfileComponent,
     DileramComponent,
     DileramMainPageComponent,
     GdeKupitComponent,
