@@ -41,6 +41,8 @@ import { ProyektDetailComponent } from './Pages/proyekt-detail/proyekt-detail.co
 import { DetailCarauselComponent } from './Pages/proyekt-detail/detail-carausel/detail-carausel.component';
 import { UslugiComponent } from './Pages/uslugi/uslugi.component';
 import { UslugiMainPageComponent } from './Pages/uslugi/uslugi-components/uslugi-main-page/uslugi-main-page.component';
+import { ZashitaProektiComponent } from './Pages/zashita-proekti/zashita-proekti.component';
+import { ZashitaProektiMainPageComponent } from './Pages/zashita-proekti/zashita-proekti-components/zashita-proekti-main-page/zashita-proekti-main-page.component';
 
 
 @NgModule({
@@ -72,7 +74,9 @@ import { UslugiMainPageComponent } from './Pages/uslugi/uslugi-components/uslugi
     ProyektDetailComponent,
     DetailCarauselComponent,
     UslugiComponent,
-    UslugiMainPageComponent
+    UslugiMainPageComponent,
+    ZashitaProektiComponent,
+    ZashitaProektiMainPageComponent
   ],
   imports: [
     BrowserModule,
