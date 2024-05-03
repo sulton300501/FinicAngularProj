@@ -1,0 +1,267 @@
+.dostavka_glavniy{
+    width: 1920px;
+    margin: auto;
+}
+
+
+.text_dostavka{
+    font-size: 52px;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+.container_dostavka{
+    width: 1740px;
+    margin: auto;
+}
+
+.image_title{
+    height: 690px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+ }
+
+ .dostavke{
+    font-size: 48px;
+    
+ }
+
+ .two_span{
+    font-size: 24px;
+    font-weight: 500;
+    
+    
+   
+}
+.title_service{
+    font-size: 24px;
+   
+}
+
+.dostavka_text_three{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.razrabotka_couple{
+    width: 700px;
+    border-top: 1px solid rgba(238, 232, 232, 0.985);
+    padding-left: 30px;
+    padding: 30px;
+}
+
+.footer_up{
+   width: 100%;
+   background: black;
+}
+.span_footer_up{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 50px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.service_footer_up{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.razbor_title{
+    padding: 50px;
+}
+
+.cont_dosta{
+    display: flex;
+}
+
+.form_display{
+    display: flex;
+
+}
+
+.form-floating{
+    width: 330px;
+    height: 80px;
+   margin-right: 20px;
+    
+}
+.form_class{
+    transform: translate(300px,80px);
+
+}
+
+.input_chek{
+    margin-right: 10px;
+   color: white;
+}
+
+.check_text{
+    color: green;
+}
+
+.text_najav{
+    color: white;
+}
+
+#floatingInput{
+    padding: 25px;
+}
+
+.btn_button{
+    width: 700px;
+    padding: 20px;
+    background-color: green;
+}
+
+
+.razrabotka_couple:nth-last-child(1){
+    margin-bottom: 60px;
+}
+
+.razrabotka_icon{
+    display: flex;
+
+}
+
+.icon_razrabot{
+    height: 180px;
+    margin-right: 35px;
+}
+
+
+/* Ekran genişliği 768 pikselden küçükse (tablet ve mobil için) */
+@media screen and (max-width: 768px) {
+    .dostavka_glavniy {
+        width: 100%; /* Ekranın genişliğine sığacak şekilde tam genişlik */
+    }
+
+    .container_dostavka {
+        width: 100%; /* Ekranın genişliğine sığacak şekilde tam genişlik */
+    }
+
+    .image_title {
+        height: auto; /* Resim yüksekliği otomatik ayarlanacak */
+        margin-top: 15px; /* Boşlukları azalt */
+        margin-bottom: 30px; /* Boşlukları azalt */
+    }
+
+    .text_dostavka {
+        font-size: 36px; /* Metin boyutunu küçült */
+        margin-right: 15px; /* Boşlukları azalt */
+        
+    }
+
+    .dostavke {
+        font-size: 36px; /* Metin boyutunu küçült */
+    }
+
+    .two_span {
+        font-size: 18px; /* Metin boyutunu küçült */
+    }
+
+    .title_service {
+        font-size: 18px; /* Metin boyutunu küçült */
+    }
+
+    .razrabotka_couple {
+        width: 100%; /* Ekranın genişliğine sığacak şekilde tam genişlik */
+        padding: 15px; /* Dolgu miktarını azalt */
+    }
+
+    .form-floating {
+        width: 100%; /* Ekranın genişliğine sığacak şekilde tam genişlik */
+        margin-right: 0; /* Sağ boşluğu kaldır */
+        margin-bottom: 15px; /* Aşağı boşluğu ekle */
+    }
+
+    .form_class {
+        transform: none; /* Dönüşümü kaldır */
+    }
+
+    .razbor_title {
+        padding: 25px; /* Dolgu miktarını azalt */
+    }
+
+    .razrabotka_icon {
+        
+        align-items: center; /* Öğeleri ortala */
+    }
+
+    .icon_razrabot {
+    width: 100px;
+    height: 140px;
+    
+    }
+
+
+    .icon_razbor{
+        margin-left: 30px;
+    }
+    .razrabotka_couple:nth-last-child(1) {
+        margin-bottom: 30px; /* Son elemanın alt boşluğunu artır */
+    }
+
+    .btn_button {
+        padding: 15px; /* Düğme dolgu miktarını azalt */
+    }
+
+    .dostavka_text_three{
+        flex-direction: column;
+    }
+
+
+    .cont_dosta{
+        flex-direction: column;
+    }
+
+    .form_class{
+        transform: translateX(50px);
+        
+    }
+
+    .btn_button{
+    
+       width: 460px;
+    }
+
+    .text_najav{
+        font-size: 14px
+    }
+
+
+}
+
+
+
+@media screen and (max-width:576px) {
+    .dostavka_glavniy {
+        width: 100%; 
+    }
+
+
+    .form_display{
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .btn_button{
+    
+        width: 400px;
+     }
+
+     .text_najav{
+        font-size: 12px
+    }
+    .check_text{
+        font-size: 12px;
+    }
+
+    .icon_razrabot{
+        display: none;
+    }
+
+}

@@ -1,0 +1,158 @@
+
+.text_dostavka{
+    font-size: 52px;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+
+
+
+
+.glavniy{
+    color:rgba(66, 57, 57, 0.297);
+    
+
+}
+
+.text_glavniy{
+    font-size: 16px;
+    transform: translateY(25px);
+}
+
+.dostavka_text_three{
+   
+    transform: translateY(32px);
+}
+
+.dostavka_glavniy{
+    width: 1920px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn{
+  text-decoration: underline;
+}
+
+
+
+.text_dostavka{
+    font-size: 52px;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+
+
+
+.image_proyekt{
+    width: 514px;
+    height: 350px;
+}
+
+.proyekt_text{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.btn_button_proyekt{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.proyekt_ulichni{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.proyekt_card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_name{
+    margin-right: 50px;
+    margin-top: 20px;
+    transform: translateX(20px);
+}
+
+.image_title{
+    width: 100%;
+}
+
+
+.container_dostavka{
+    width: 1740px;
+    
+    
+}
+
+
+
+.image_proyekt_name{
+    width: 743px;
+    height: 500px;
+    z-index: -1;
+    position: absolute;
+}
+
+
+.card_name_park{
+    width: 377px;
+    height: 350px;
+    background-color: white;
+    border-radius: 7px;
+    transform: translate(50px,80px);
+    padding: 30px;
+}
+
+.card_park{
+font-size: 28px;
+font-weight: 500;
+margin-top: 90px;
+}
+
+.button_park{
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+
+.dostavke{
+    margin-top: 50px;
+}
+
+
+.park_container{
+    width: 1840px;
+    transform: translateX(-50px);
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+.dostavka_glavniy{
+    width: 100%;
+}
+
+
+.image_proyekt{
+    width: 300px;
+    height: 250px;
+}
+
+.proyekt_card{
+  
+    
+}
+
+}

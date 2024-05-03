@@ -1,0 +1,157 @@
+.glavniy{
+    color:rgba(66, 57, 57, 0.297);
+    
+
+}
+
+.text_glavniy{
+    font-size: 16px;
+    transform: translateY(25px);
+}
+
+.dostavka_text_three{
+    display: flex;
+    transform: translateY(32px);
+}
+
+.dostavka_glavniy{
+    width: 1920px;
+    margin: auto;
+    margin-bottom: 170px;
+}
+
+
+
+
+.text_dostavka{
+    font-size: 52px;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+.oplate{
+    color:rgba(66, 57, 57, 0.297);
+    font-family: stem;
+}
+
+.table{
+    transform: translateY(80px);
+}
+
+.col_name{
+    font-size: 20px;
+    font-weight: 350;
+    color:rgba(66, 57, 57, 0.297);
+}
+
+.dostav_rub{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.zona_dostav{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgba(66, 57, 57, 0.297);
+    transform: translateY(12px);
+}
+
+.beside_table{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    /* Bu yerda "shuni" tabletga moslab ushbu ekran o'lchamida qo'llaniladigan stil atributlarini yozishingiz mumkin */
+    .glavniy {
+       
+    }
+    .text_glavniy{
+        font-size: 12px;
+       
+    }
+
+    .text_dostavka{
+        font-size: 32px;
+        font-weight: 500;
+        margin-right: 35px;
+    }
+
+    .zona_dostav{
+     
+        font-weight: 350;
+        font-size: 19px;
+        border-bottom: none;
+      
+    }
+    .dostav_rub{
+        font-size: 22px;
+        border-bottom: none;
+        
+    }
+
+    .zona_dostav_column{
+     display: flex;
+     flex-direction: column;
+    margin-right: 60px;
+    
+    }
+    .tbody_table{
+        display: none;
+    }
+    .beside_table{
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-28px);
+        
+    }
+
+    .table{
+        display: flex;
+        
+    
+    
+    }
+
+    .col_name:nth-last-child(2){
+        width: 170px;
+    }
+
+
+    .dostav_color{
+        width: 340px;
+        color: black;
+        font-weight: 700;
+    }
+
+    .col_name{
+        padding: 17px;
+        font-size: 17px;
+        border-bottom: none;
+        color:rgba(23, 21, 21, 0.527);
+    }
+
+    .container_dostavka{
+        width: 690px;
+        margin: auto;
+    }
+
+    .dostavka_glavniy{
+        width: 768px;
+    }
+
+    .fa-caret-down{
+     
+        color: green;
+        margin-left: 20px;
+    }
+
+    
+
+   
+
+
+    /* Boshqa elementlarga mos keladigan stil atributlarini ham yozishingiz mumkin */
+}

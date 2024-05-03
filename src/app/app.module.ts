@@ -32,6 +32,13 @@ import { NovostiMainInPageComponent } from './Pages/novosti/novosti-components/n
 import { KontaktComponent } from './Pages/kontakt/kontakt.component';
 import { KontaktMainPageComponent } from './Pages/kontakt/kontakt-components/kontakt-main-page/kontakt-main-page.component';
 import { KontaktKontaktPageComponent } from './Pages/kontakt/kontakt-components/kontakt-kontakt-page/kontakt-kontakt-page.component';
+import { AccordionComponent } from './pages/home/home-components/accordion/accordion.component';
+import { DostavkaComponent } from './pages/dostavka/dostavka.component';
+import { GarantiyaComponent } from './pages/garantiya/garantiya.component';
+import { CompanyComponent } from './pages/company/company.component';
+import { ProyektComponent } from './pages/proyekt/proyekt.component';
+import { ProyektDetailComponent } from './pages/proyekt-detail/proyekt-detail.component';
+import { DetailCarauselComponent } from './pages/proyekt-detail/detail-carausel/detail-carausel.component';
 import { UslugiComponent } from './Pages/uslugi/uslugi.component';
 import { UslugiMainPageComponent } from './Pages/uslugi/uslugi-components/uslugi-main-page/uslugi-main-page.component';
 
@@ -57,6 +64,13 @@ import { UslugiMainPageComponent } from './Pages/uslugi/uslugi-components/uslugi
     KontaktComponent,
     KontaktMainPageComponent,
     KontaktKontaktPageComponent,
+    AccordionComponent,
+    DostavkaComponent,
+    GarantiyaComponent,
+    CompanyComponent,
+    ProyektComponent,
+    ProyektDetailComponent,
+    DetailCarauselComponent
     UslugiComponent,
     UslugiMainPageComponent
   ],
