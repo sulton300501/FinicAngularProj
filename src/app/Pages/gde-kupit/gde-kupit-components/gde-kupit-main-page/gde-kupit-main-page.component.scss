@@ -138,12 +138,20 @@ h1 {
 }
 
 .card {
+    width: auto;
     padding: 25px;
 }
 
 @media (min-width: 40rem) {
   .cards_item {
     width: 50%;
+  }
+  .card {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -153,11 +161,23 @@ h1 {
       width: 100%;
       justify-content: center;
     }
+    .card {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
   }
 
 @media (min-width: 56rem) {
   .cards_item {
     width: 25%;
+  }
+  .card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
