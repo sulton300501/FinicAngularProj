@@ -43,6 +43,10 @@ import { UslugiComponent } from './Pages/uslugi/uslugi.component';
 import { UslugiMainPageComponent } from './Pages/uslugi/uslugi-components/uslugi-main-page/uslugi-main-page.component';
 import { ZashitaProektiComponent } from './Pages/zashita-proekti/zashita-proekti.component';
 import { ZashitaProektiMainPageComponent } from './Pages/zashita-proekti/zashita-proekti-components/zashita-proekti-main-page/zashita-proekti-main-page.component';
+import { DileramComponent } from './Pages/dileram/dileram.component';
+import { DileramMainPageComponent } from './Pages/dileram/dileram-components/dileram-main-page/dileram-main-page.component';
+import { GdeKupitComponent } from './Pages/gde-kupit/gde-kupit.component';
+import { GdeKupitMainPageComponent } from './Pages/gde-kupit/gde-kupit-components/gde-kupit-main-page/gde-kupit-main-page.component';
 
 
 @NgModule({
@@ -76,7 +80,11 @@ import { ZashitaProektiMainPageComponent } from './Pages/zashita-proekti/zashita
     UslugiComponent,
     UslugiMainPageComponent,
     ZashitaProektiComponent,
-    ZashitaProektiMainPageComponent
+    ZashitaProektiMainPageComponent,
+    DileramComponent,
+    DileramMainPageComponent,
+    GdeKupitComponent,
+    GdeKupitMainPageComponent
   ],
   imports: [
     BrowserModule,
