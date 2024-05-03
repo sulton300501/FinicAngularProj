@@ -76,7 +76,8 @@ import { ZashitaProektiMainPageComponent } from './Pages/zashita-proekti/zashita
     UslugiComponent,
     UslugiMainPageComponent,
     ZashitaProektiComponent,
-    ZashitaProektiMainPageComponent
+    ZashitaProektiMainPageComponent,
+    AdminProfileComponent
   ],
   imports: [
     BrowserModule,
