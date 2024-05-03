@@ -41,7 +41,7 @@ export class LoginComponent implements OnInit {
         duration: 5000,
         horizontalPosition: 'center'
       });
-      this.router.navigate(['/login']); // changed because couldnt access to login page anymore after expiration
+      this.router.navigate(['/login']); 
     }
   }
 
@@ -51,17 +51,17 @@ export class LoginComponent implements OnInit {
         console.log(response);
 
         this.decodedToken = jwtDecode(localStorage.getItem(this.tokenKey)!);
-        console.log('rollar kelishi kere');
+        console.log('role is being checked');
         for (let index = 0; index < this.decodedToken.role.length; index++) {
           console.log(this.decodedToken.role[index]);
           if (this.decodedToken.role[index] == 'Admin') {
             console.log('admin-test');
             console.log(this.decodedToken.role[index]);
-            this.router.navigate(['/users']);
+            this.router.navigate(['/register']);
           } else if (this.decodedToken.role[index] == 'Student') {
             console.log('student-test');
             console.log(this.decodedToken.role[index]);
-            this.router.navigate(['/student-profile']);
+            this.router.navigate(['/register']);
           }
         }
 
