@@ -5,6 +5,9 @@
     justify-content: space-between;
 }
 .cards a {
+    border: none;
+    box-shadow: none;
+    color: #1C1C1C;
     margin: 20px;
     width: 30%;
     background-color: #F9F9F9;
@@ -12,13 +15,14 @@
 
 .cards a h5 {
     align-items: start;
-    font-size: 100px;
-    font-weight: 300;
+    font-size: 105px;
+    font-weight: 350;
+    line-height: 50px;
 }
 .cards a p {
     padding-top: 80px;
     align-items: end;
-    font-size: 20px;
+    font-size: 18px;
 }
 @media (max-width: 720px){
     .cards {

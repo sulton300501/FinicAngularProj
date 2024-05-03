@@ -25,6 +25,7 @@ import { FooterComponent } from './Pages/home/footer/footer.component';
 import { HomeHeaderBottomPageComponent } from './Pages/home/home-components/home-header-bottom-page/home-header-bottom-page.component';
 import { HomeCardsComponent } from './Pages/home/home-components/home-cards/home-cards.component';
 import { MainNavbarComponent } from './Components/main-navbar/main-navbar.component';
+import { HomeCrouselCardsPageComponent } from './Pages/home/home-components/home-crousel-cards-page/home-crousel-cards-page.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { MainNavbarComponent } from './Components/main-navbar/main-navbar.compon
     FooterComponent,
     HomeHeaderBottomPageComponent,
     HomeCardsComponent,
-    MainNavbarComponent
+    MainNavbarComponent,
+    HomeCrouselCardsPageComponent
   ],
   imports: [
     BrowserModule,
