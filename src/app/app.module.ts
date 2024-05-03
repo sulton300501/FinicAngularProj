@@ -32,6 +32,8 @@ import { NovostiMainInPageComponent } from './Pages/novosti/novosti-components/n
 import { KontaktComponent } from './Pages/kontakt/kontakt.component';
 import { KontaktMainPageComponent } from './Pages/kontakt/kontakt-components/kontakt-main-page/kontakt-main-page.component';
 import { KontaktKontaktPageComponent } from './Pages/kontakt/kontakt-components/kontakt-kontakt-page/kontakt-kontakt-page.component';
+import { UslugiComponent } from './Pages/uslugi/uslugi.component';
+import { UslugiMainPageComponent } from './Pages/uslugi/uslugi-components/uslugi-main-page/uslugi-main-page.component';
 
 
 @NgModule({
@@ -54,7 +56,9 @@ import { KontaktKontaktPageComponent } from './Pages/kontakt/kontakt-components/
     NovostiMainInPageComponent,
     KontaktComponent,
     KontaktMainPageComponent,
-    KontaktKontaktPageComponent
+    KontaktKontaktPageComponent,
+    UslugiComponent,
+    UslugiMainPageComponent
   ],
   imports: [
     BrowserModule,
