@@ -1,0 +1,231 @@
+
+.text_dostavka{
+    font-size: 52px;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+.service_title{
+font-size: 24px;
+font-weight: 500;
+color: green;
+}
+
+.service_garanty_title{
+font-size: 20px;
+font-weight: 350;
+}
+.garanty_couple_one{
+    width: 440px;
+    height: 210px;
+    background-color: #F5F5F5 ;
+    margin-top: 50px;
+    
+    
+}
+
+.name_title{
+    padding: 40px;
+}
+.service_garanty_title{
+    margin-top: 30px;
+}
+
+.garanty_service_couple{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dostavka_glavniy{
+    width: 1920px;
+    margin: auto;
+}
+
+.title_service{
+font-size: 24px;
+font-weight: 350;
+line-height: 33px;
+}
+
+.title_service_name{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.container_dostavka{
+    width: 1740px;
+    margin: auto;
+}
+
+.image_title{
+height: 700px;
+width: 100%;
+margin-top: 30px;
+}
+.garanty_title{
+  font-size: 21px;
+    transform: translateY(-38px);
+}
+
+.span_rf{
+    color: green;
+}
+
+.two_span{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 30px 0px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+   
+}
+
+.two_title{
+    transform: translateY(40px);
+}
+.title_service{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+/* Ekran genişliği 768 pikselden küçükse (tablet ve mobil için) */
+@media screen and (max-width: 768px) {
+    .dostavka_glavniy {
+        width: 100%; /* Ekranın genişliğine sığacak şekilde tam genişlik */
+    }
+
+    .container_dostavka {
+        width: 100%; /* Ekranın genişliğine sığacak şekilde tam genişlik */
+    }
+
+    .image_title {
+        height: auto; /* Resim yüksekliği otomatik ayarlanacak */
+        margin-top: 15px; /* Boşlukları azalt */
+        margin-bottom: 30px; /* Boşlukları azalt */
+    }
+
+    .text_dostavka {
+        font-size: 36px; /* Metin boyutunu küçült */
+        margin-right: 15px; /* Boşlukları azalt */
+        
+    }
+
+    .dostavke {
+        font-size: 36px; /* Metin boyutunu küçült */
+    }
+
+    .two_span {
+        font-size: 18px; /* Metin boyutunu küçült */
+    }
+
+    .title_service {
+        font-size: 18px; /* Metin boyutunu küçült */
+    }
+
+    .razrabotka_couple {
+        width: 100%; /* Ekranın genişliğine sığacak şekilde tam genişlik */
+        padding: 15px; /* Dolgu miktarını azalt */
+    }
+
+    .form-floating {
+        width: 100%; /* Ekranın genişliğine sığacak şekilde tam genişlik */
+        margin-right: 0; /* Sağ boşluğu kaldır */
+        margin-bottom: 15px; /* Aşağı boşluğu ekle */
+    }
+
+    .form_class {
+        transform: none; /* Dönüşümü kaldır */
+    }
+
+    .razbor_title {
+        padding: 25px; /* Dolgu miktarını azalt */
+    }
+
+    .razrabotka_icon {
+        
+        align-items: center; /* Öğeleri ortala */
+    }
+
+    .icon_razrabot {
+    width: 100px;
+    height: 140px;
+    
+    }
+
+
+    .icon_razbor{
+        margin-left: 30px;
+    }
+    .razrabotka_couple:nth-last-child(1) {
+        margin-bottom: 30px; /* Son elemanın alt boşluğunu artır */
+    }
+
+    .btn_button {
+        padding: 15px; /* Düğme dolgu miktarını azalt */
+    }
+
+    .dostavka_text_three{
+        flex-direction: column;
+    }
+
+
+    .cont_dosta{
+        flex-direction: column;
+    }
+
+    .form_class{
+        transform: translateX(50px);
+        
+    }
+
+    .btn_button{
+    
+       width: 460px;
+    }
+
+    .text_najav{
+        font-size: 14px
+    }
+
+
+}
+
+
+
+@media screen and (max-width:576px) {
+    .dostavka_glavniy {
+        width: 100%; 
+    }
+
+
+    .form_display{
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .btn_button{
+    
+        width: 400px;
+     }
+
+     .text_najav{
+        font-size: 12px
+    }
+    .check_text{
+        font-size: 12px;
+    }
+
+    .icon_razrabot{
+        display: none;
+    }
+
+}
