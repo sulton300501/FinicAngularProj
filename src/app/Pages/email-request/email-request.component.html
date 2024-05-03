@@ -1,0 +1,15 @@
+<div class="container">
+    <form class="email-form" (ngSubmit)="sendEmail()" action="javascript:void(0);">
+      <div class="form-group">
+        <label for="email" class="form-label">
+          <span>Email</span>
+        </label>
+        <div class="form-group__input">
+          <input required type="email" id="email" class="form-input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Enter valid email address" placeholder="Enter valid email address" [(ngModel)]="myemail" name="myemail" />
+          <div class="form-group__error">Enter a valid email address</div>
+        </div>
+      </div>
+      <button type="submit" class="btn-submit">Submit</button>
+    </form>
+  </div>
+  

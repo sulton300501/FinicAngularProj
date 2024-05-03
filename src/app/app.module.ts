@@ -10,6 +10,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -47,6 +48,8 @@ import { DileramComponent } from './Pages/dileram/dileram.component';
 import { DileramMainPageComponent } from './Pages/dileram/dileram-components/dileram-main-page/dileram-main-page.component';
 import { GdeKupitComponent } from './Pages/gde-kupit/gde-kupit.component';
 import { GdeKupitMainPageComponent } from './Pages/gde-kupit/gde-kupit-components/gde-kupit-main-page/gde-kupit-main-page.component';
+import { ResetPasswordComponent } from './Pages/reset-password/reset-password.component';
+import { EmailRequestComponent } from './Pages/email-request/email-request.component';
 
 
 @NgModule({
@@ -85,7 +88,9 @@ import { GdeKupitMainPageComponent } from './Pages/gde-kupit/gde-kupit-component
     DileramComponent,
     DileramMainPageComponent,
     GdeKupitComponent,
-    GdeKupitMainPageComponent
+    GdeKupitMainPageComponent,
+    ResetPasswordComponent,
+    EmailRequestComponent
   ],
   imports: [
     BrowserModule,
@@ -99,7 +104,8 @@ import { GdeKupitMainPageComponent } from './Pages/gde-kupit/gde-kupit-component
     ReactiveFormsModule,
     MatSnackBarModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
