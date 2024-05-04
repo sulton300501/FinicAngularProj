@@ -13,6 +13,8 @@ import { KontaktComponent } from './Pages/kontakt/kontakt.component';
 import { UslugiComponent } from './Pages/uslugi/uslugi.component';
 import { ZashitaProektiComponent } from './Pages/zashita-proekti/zashita-proekti.component';
 import { ProyektComponent } from './Pages/proyekt/proyekt.component';
+import { ResetPasswordComponent } from './Pages/reset-password/reset-password.component';
+import { EmailRequestComponent } from './Pages/email-request/email-request.component';
 
 
 const routes: Routes = [
@@ -20,8 +22,10 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent, canActivate: [loginGuard]},
   {path: 'logout', component: LogoutComponent, canActivate: [logoutGuard]},
   {path: 'register', component: RegisterComponent, canActivate: [registerGuard]},
-  {path: 'user-profile', component: UserProfileComponent, canActivate: [userGuard]},
-  {path: 'admin-profile', component: AdminProfileComponent, canActivate: [studentGuard]},
+  {path: 'reset', component: ResetPasswordComponent},
+  {path: 'emailRequest', component: EmailRequestComponent}, // guard needed
+  {path: 'user-profile', component: UserProfileComponent}, // guard needed
+  {path: 'admin-profile', component: AdminProfileComponent},
   {path: 'catalog', component: CompanyComponent, canActivate: [catalogGuard]}, // to be fixed
   {path: 'company', component: CompanyComponent, canActivate: [companyGuard]},
   {path: 'shopping', component: CompanyComponent, canActivate: [shoppingGuard]}, // to be fixed
