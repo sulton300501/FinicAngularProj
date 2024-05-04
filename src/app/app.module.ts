@@ -47,6 +47,8 @@ import { DileramComponent } from './Pages/dileram/dileram.component';
 import { DileramMainPageComponent } from './Pages/dileram/dileram-components/dileram-main-page/dileram-main-page.component';
 import { GdeKupitComponent } from './Pages/gde-kupit/gde-kupit.component';
 import { GdeKupitMainPageComponent } from './Pages/gde-kupit/gde-kupit-components/gde-kupit-main-page/gde-kupit-main-page.component';
+import { DIAComponent } from './Pages/d-i-a/d-i-a.component';
+import { DIAMainPageComponent } from './Pages/d-i-a/d-i-a-components/d-i-a-main-page/d-i-a-main-page.component';
 
 
 @NgModule({
@@ -85,7 +87,9 @@ import { GdeKupitMainPageComponent } from './Pages/gde-kupit/gde-kupit-component
     DileramComponent,
     DileramMainPageComponent,
     GdeKupitComponent,
-    GdeKupitMainPageComponent
+    GdeKupitMainPageComponent,
+    DIAComponent,
+    DIAMainPageComponent
   ],
   imports: [
     BrowserModule,
