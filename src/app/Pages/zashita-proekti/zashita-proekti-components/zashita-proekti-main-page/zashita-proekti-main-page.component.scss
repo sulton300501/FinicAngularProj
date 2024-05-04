@@ -1,0 +1,35 @@
+.tit {
+    display: flex;
+    justify-content: space-between;
+}
+.tit .h1 {
+    width: 50%;
+}
+.tit .p {
+    width: 50%;
+}
+
+.tit-left {
+    width: 50%;
+}
+.tit-right {
+    width: 50%;
+}
+
+@media (max-width: 56rem) {
+    .tit {
+        display: block;
+    }
+    .tit .h1 {
+        width: 100%;
+    }
+    .tit .p {
+        width: 100%;
+    }
+    .tit-left {
+        width: 100%;
+    }
+    .tit-right {
+        width: 100%;
+    }
+  }
