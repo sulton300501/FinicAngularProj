@@ -248,7 +248,7 @@ background-color: green;
     z-index: -1;
     position: relative;
     transform: translateX(-50px);
-    margin-bottom: 120px;
+   
 }
 
 .image_couple_three{
@@ -277,4 +277,12 @@ background-color: green;
 
 .cartochka_icon_couple{
     display: flex;
+}
+
+.double_couple{
+    display: flex;
+}
+
+.footer{
+    transform: translateX(-50px);
 }
