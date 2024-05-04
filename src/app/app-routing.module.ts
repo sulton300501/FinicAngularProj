@@ -23,8 +23,8 @@ const routes: Routes = [
   {path: 'logout', component: LogoutComponent, canActivate: [logoutGuard]},
   {path: 'register', component: RegisterComponent, canActivate: [registerGuard]},
   {path: 'reset', component: ResetPasswordComponent},
-  {path: 'emailRequest', component: EmailRequestComponent},
-  {path: 'user-profile', component: UserProfileComponent, canActivate: [userGuard]},
+  {path: 'emailRequest', component: EmailRequestComponent}, // guard needed
+  {path: 'user-profile', component: UserProfileComponent}, // guard needed
   {path: 'admin-profile', component: AdminProfileComponent},
   {path: 'catalog', component: CompanyComponent, canActivate: [catalogGuard]}, // to be fixed
   {path: 'company', component: CompanyComponent, canActivate: [companyGuard]},
