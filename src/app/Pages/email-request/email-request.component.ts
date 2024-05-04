@@ -24,16 +24,17 @@ export class EmailRequestComponent implements OnInit {
         duration: 5000,
         horizontalPosition: 'center'
       });
+      this.router.navigate(['/reset']);
     }
 
     this.http.sendEmail(this.myemail).subscribe({
       next: (data: Email) => {
       console.log('submitted')
+      this.router.navigate(['/reset']);
         this.matSnackBar.open('Your PIN code has been sent to your email!', 'Close', {
           duration: 5000,
           horizontalPosition: 'center'
         });
-        this.router.navigate(['/reset']);
 
       },
       error: (err) => {
@@ -42,6 +43,7 @@ export class EmailRequestComponent implements OnInit {
           duration: 5000,
           horizontalPosition: 'center'
         });
+        this.router.navigate(['/reset']);
       }
     });
   }

@@ -25,7 +25,7 @@ const routes: Routes = [
   {path: 'reset', component: ResetPasswordComponent},
   {path: 'emailRequest', component: EmailRequestComponent},
   {path: 'user-profile', component: UserProfileComponent, canActivate: [userGuard]},
-  {path: 'admin-profile', component: AdminProfileComponent, canActivate: [studentGuard]},
+  {path: 'admin-profile', component: AdminProfileComponent},
   {path: 'catalog', component: CompanyComponent, canActivate: [catalogGuard]}, // to be fixed
   {path: 'company', component: CompanyComponent, canActivate: [companyGuard]},
   {path: 'shopping', component: CompanyComponent, canActivate: [shoppingGuard]}, // to be fixed
