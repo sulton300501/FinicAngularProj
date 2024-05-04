@@ -58,6 +58,7 @@ export class ResetPasswordComponent {
         console.log(err);
       }
     })
+    this.router.navigateByUrl('/home');
   }
 
 
